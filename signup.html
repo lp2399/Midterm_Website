@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width">
+    <meta name="description" content="Solar Energy Services.">
+	<meta name="keywords" content="Solar, affordable, local, professional installatiom,24/7 service">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel= "icon" href="images/favicon.ico">
+<title>SolarisE </title>
+</head>
+<body>
+  <section>
+        <div class="container">
+        <h1>Sign Up </h1>
+        <form  method="POST" action="signupFormProccess.php" id="signup-submit-form"> 
+        <svg class="bi bi-person-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
+          </svg><label for="firstName">First name</label>
+          <input type="text" class="form-control" id="firstName" name="client-name" placeholder="" value="" required="">
+          <div class="invalid-feedback">
+            Valid first name is required.
+          </div>
+          <label for="lastName">Last name</label>
+          <input type="text" class="form-control" id="lastName"  name="client-last-name"  placeholder="" value="" required="">
+          <div class="invalid-feedback">
+            Valid last name is required.
+          </div>
+          <svg class="bi bi-envelope-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M.05 3.555L8 8.414l7.95-4.859A2 2 0 0014 2H2A2 2 0 00.05 3.555zM16 4.697l-5.875 3.59L16 11.743V4.697zm-.168 8.108L9.157 8.879 8 9.586l-1.157-.707-6.675 3.926A2 2 0 002 14h12a2 2 0 001.832-1.195zM0 11.743l5.875-3.456L0 4.697v7.046z"/>
+        </svg> <label for="email">Email <span class="text-muted">(Required)</span></label>
+        <input type="email" class="form-control" id="email" name="client-email" placeholder="you@example.com">
+        <div class="invalid-feedback">
+          Please enter a valid email.
+        </div>
+        <label for="inputPassword" class="label-input"><svg class="bi bi-lock-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <rect width="11" height="9" x="2.5" y="7" rx="2"/>
+            <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 117 0v3h-1V4a2.5 2.5 0 00-5 0v3h-1V4z" clip-rule="evenodd"/>
+          </svg> Password</label>
+      <input type="password" id="inputPassword" name="client-password" class="form-control" placeholder="Password" required="">
+
+      <label for="inputPassword" class="label-input">
+      <input type="password" id="inputPasswordRepeat" name="password-repeat" class="form-control" placeholder="Repeat Password" required="">
+
+        <svg class="bi bi-house-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+          <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 011.414 0l6.647 6.646a.5.5 0 01-.708.708L8 2.207 1.354 8.854a.5.5 0 11-.708-.708L7.293 1.5z" clip-rule="evenodd"/>
+        </svg> <label for="address">Address</label>
+        <input type="text" class="form-control" id="address"  name="client-address"  placeholder="1234 Main St" required="">
+        <div class="invalid-feedback">
+          Please enter your address.
+        </div>
+        <label for="zip">Zip</label>
+          <input type="text" class="form-control" id="zip"  name="client-address-zip"  placeholder="" required="">
+          <div class="invalid-feedback">
+            Zip code required.
+          </div>
+       <button name="signup-submit" form="signup-submit-form" type="submit">Sign Up</button>
+    </form>
+        </div>
+  </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src = "js/bootstrap.min.js">  </script>
+
+</body>
+
+</html>
+    

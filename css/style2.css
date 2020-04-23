@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+html{
+    font-size: 12px;
+}
+a{
+	color:white;
+}
+a:hover{
+	color: lightblue;
+	text-decoration: none;
+}
+
+.contact-body{
+	background-image:linear-gradient(#151514be,#ccf2ff9d), url(../images/solarContact3.jpg);
+    font-family: serif;
+    font-style: Georgia;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color:white;
+}
+#contact-container{
+    background:linear-gradient(#635f5f3b,#ffffff00);
+	margin-top: 10rem;
+	padding-bottom: 2rem;
+	margin-right: 10rem;
+	padding-top: 2rem;
+	border-radius: 25px;
+
+}
+#contact-footer{
+    position: fixed; 
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#contact-address{
+	float: right;
+	margin-top: 10rem;
+	padding-left: 2rem;
+	padding-right: 10rem;
+
+}
+.client-login-body{
+	background-image:linear-gradient(#151514be,#ccf2ff9d), url(../images/SolarUserLogin.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 1.6rem;
+}
+#inputEmail{	
+	width : 30rem;
+	margin-left: auto;
+    margin-right: auto;
+  
+}
+#inputPassword{
+	width : 30rem;
+	margin-left: auto;
+    margin-right: auto;
+  
+}
+#client-login-container{
+	background: linear-gradient(#15151461,#ccf2ff9d);
+	padding: 3rem 3rem 3rem 3rem;
+	text-align: center;
+	margin-bottom: 12rem;
+	border-radius: 25px;
+	color: white;
+	height: 100%;
+	width: 40rem;
+	z-index: 1;
+}
+.navbar{
+	background:linear-gradient(#00000000,#21334d00);
+}
+.nav-link-login{
+	position: absolute;
+	top: 2rem;
+	left: 1rem;
+	font-size: 4rem;
+	background:linear-gradient (#151514be,#000000);
+	
+}
+#button-prop{
+	font-size: 1rem !important;
+}
+  .btn:link, .btn:visited { 
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10rem;
+	transition: all .2s;
+}
+.btn:hover{
+	transform: translateY(-7px);
+	box-shadow: 0 20px 30px rgba(0,0,0,.2);
+	text-decoration-color: cornflowerblue;
+} 
+.btn:active{
+	transform: translateY(-10px);
+	box-shadow: 0 5px 20px rgba(0,0,0,.2);
+}
+.btn-black {
+	padding: 1.5rem 3rem;
+	margin-top: 3rem ;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.63) !important ;
+	color: white !important;
+	border-radius: 10rem;
+	font-size: 1.4rem;
+}
+header{	
+	text-align: center;
+	padding-bottom: 10rem;
+	position: relative;
+	margin-bottom: 0px;
+	margin-top: 20rem;
+	/*4c4c3abe*/
+}
+.text-box{
+	position: absolute;
+	top: -10%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.main-head-heading{
+	font-size: 3rem;
+	letter-spacing: 1rem;
+	text-align: center;
+	color:white;
+	display: block;
+	animation-name: moveInRight;
+	animation-duration: 3s;
+	animation-delay: .5s;	
+	font-family: serif !important;
+}
+.main-head-sub{
+	margin-bottom: 2rem;
+	display: block;
+	color: black !important;
+	animation-name: moveInLeft;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	font-family: serif !important;
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 1rem; 
+	text-align: center;
+}
+
+
+@keyframes moveInRight{
+0%{
+	opacity:0;
+	transform: translate(-20rem)
+}	
+80%{ 
+	transform: translate(-2rem);
+}
+100%{
+	opacity: 1;
+	transform: translate(0)
+}
+}
+@keyframes moveInLeft{
+	0%{
+		opacity:0;
+		transform: translate(20rem)
+	}	
+	80%{ 
+		transform: translate(2rem);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0)
+	}
+}
+mark {
+	background-color: transparent !important;
+	color:#fbfbbd;
+}
+@media only screen and (max-width: 768px){
+	.main-head-heading{
+		font-size: 3rem;
+		letter-spacing: 1rem;
+		text-align: center;
+	}
+	.main-head-sub{
+		padding-top: 1rem;
+		text-transform: uppercase;
+		font-size: 1rem;
+		letter-spacing: 1rem; 
+		text-align: center;
+	
+	}
+}
+
+@media only screen and (max-width: 576px){
+	#inputEmail{	
+		width : auto;
+		margin-left: auto;
+		margin-right: auto;
+	  
+	}
+	#inputPassword{
+		width : auto;
+		margin-left: auto;
+		margin-right: auto;
+	  
+	}
+	#client-login-container{
+		
+		height: auto;
+		width: auto;
+	}
+}
